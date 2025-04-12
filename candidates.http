@@ -1,0 +1,14 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+    "name": "Pavan",
+    "email": "pavan23@example.com",
+    "phone": "9848024986",
+    "gender": "Male",
+    "experience": 1,
+    "skills": "JAVA"
+}
+###
+
+GET http://localhost:3000/?page=1&gender=&skills=&experience=
